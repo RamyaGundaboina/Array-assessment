@@ -1,4 +1,5 @@
-Make some changes like:
-1. Change variable names
-2. Mention which type of array is!
-3. Print array with different loops.
+Make some changes in Problem.java file:
+1. Multiply all elements in array
+2. Replace multiplication value at 0th index
+3. Example, 
+a={1, 2, 3, 4} ===> a={24, 2, 3, 4};
