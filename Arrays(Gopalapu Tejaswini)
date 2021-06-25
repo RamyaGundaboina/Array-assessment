@@ -26,6 +26,7 @@ import java.util.Arrays;
 
         System.out.println(Arrays.toString(z));
 
+//print the values
         for (int k : z) 
             System.out.println(k);      //for-each loop -> element
 
