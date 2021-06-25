@@ -15,7 +15,7 @@
 
         System.out.println("Enter elements : ");
         
-        for (int k=0; i<z.length; k++) {
+        for (int k=0; k<z.length; k++) {
             System.out.println("Enter element at index: "+k);
             z[k] = sc.nextInt();
         }   //for loop -> index
@@ -40,7 +40,7 @@
             for (int m=0; m<breadth; m++)
                 rectangle[k][m] = sc.nextInt();
         }
-        for (int k=0; k<length; i++) {
+        for (int k=0; k<length; k++) {
             for (int m=0; m<breadth; m++)
                 System.out.println(rectangle[k][m]);    //printing array elements
         }
