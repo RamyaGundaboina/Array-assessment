@@ -1,0 +1,23 @@
+        import java.util.Arrays;
+        import java.util.Scanner;
+
+        public class ProblemArray {
+        public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int z[] = new int[n];
+        int mul=1;
+
+        for (int j=0; i<a.length; j++) {
+            z[j] = sc.nextInt();
+            mul=mul*z[j];
+        }
+
+        z[0]  = mul;
+
+        System.out.println(Arrays.toString(z));
+
+        sc.close();
+        }
+        }
