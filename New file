@@ -1,0 +1,23 @@
+ import java.until.Arrays;
+ import java.until.Scnner;
+
+  Public class problemArray{
+  Public static void main(string[] args) {
+  Scanner sc= newscanner(system.in);
+  int n = sc.nextInt();
+ 
+  int k[] = new int[n];
+  int mul =1;
+  
+  for (int j=0; j<2.length; j++) {
+   K[j] = sc.nextInt();
+   mul =mul*k[j];
+  }
+  K[0] =mul;
+  
+  System.out.println(Arrays.tostring(k));
+
+  Sc.close();
+  }
+ }
+
